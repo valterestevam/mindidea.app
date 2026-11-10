@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusão de Dados - MindIdea</title>
+    <!-- Certifique-se de vincular o seu arquivo CSS aqui -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!-- Cabeçalho existente do seu site -->
+    <header>
+        <div class="logo-area">
+            <a href="/" class="logo-link">
+                <!-- Se tiver uma imagem do logo, insira aqui, senão use o texto -->
+                <span style="font-weight: bold; font-size: 1.2rem; color: var(--text-light);">Mind <span style="color: var(--cyan-accent);">Idea</span></span>
+            </a>
+        </div>
+        <nav>
+            <a href="/">Início</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal utilizando suas classes nativas -->
+    <main class="legal-content">
+        <h1>Exclusão de Dados</h1>
+        <p style="color: var(--text-muted); margin-bottom: 40px;">Instruções para remoção de conta e informações em conformidade com as regras da Meta / Facebook.</p>
+        
+        <div class="card" style="margin-bottom: 30px;">
+            <h3>O que acontece com seus dados?</h3>
+            <p style="color: var(--text-muted); margin-top: 10px;">Ao solicitar a exclusão, todos os seus dados de perfil, preferências de uso e históricos salvos em nossos servidores serão permanentemente e irreversivelmente eliminados dentro dos prazos legais.</p>
+        </div>
+
+        <h3 style="color: var(--text-light); margin-bottom: 15px;">Como solicitar a exclusão:</h3>
+        <ol style="color: var(--text-muted); padding-left: 20px; margin-bottom: 40px; line-height: 2;">
+            <li>Clique no botão abaixo para ir até o painel de controle da sua conta.</li>
+            <li>Realize o login com suas credenciais (ou via Facebook), caso solicitado.</li>
+            <li>Dentro das configurações de perfil, clique em <strong>"Excluir Conta"</strong> e confirme a operação.</li>
+        </ol>
+
+        <!-- Botão CTA usando o degradê padrão do seu Logo -->
+        <div style="text-align: center;">
+            <a href="https://mindidea.com.br" class="btn-cta">Acessar Área de Exclusão</a>
+        </div>
+    </main>
+
+</body>
+</html>
